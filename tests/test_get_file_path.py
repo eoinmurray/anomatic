@@ -5,7 +5,7 @@ import shutil
 import tempfile
 import pytest
 
-from anarchomatic_manager import get_file_path
+from anomatic import get_file_path
 
 @pytest.fixture
 def temp_output_dir():

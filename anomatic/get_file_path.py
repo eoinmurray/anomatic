@@ -1,4 +1,4 @@
-from anomatic_manager.get_next_folder_name import get_next_folder_name
+from anomatic.get_next_folder_name import get_next_folder_name
 import os
 
 def get_file_path(filename: str, output_dir: str | None = None) -> str:

@@ -1,5 +1,5 @@
 [project]
-name = "anomatic_manager"
+name = "anomatic"
 version = "0.1.0"
 authors = [{ name = "Eoin", email = "me@eoinmurray.info" }]
 description = "A personal manager tool for simulations"
@@ -16,11 +16,9 @@ dependencies = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-
 [project.scripts]
-anomatic = "anomatic_manager.cli:main"
-
+anomatic = "anomatic.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["anomatic_manager"]
+packages = ["anomatic"]
 
