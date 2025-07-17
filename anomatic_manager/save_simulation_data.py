@@ -1,7 +1,7 @@
 import numpy as np
 import json
 from dotenv import load_dotenv
-from anarchomatic_manager.to_tidy import to_tidy
+from anomatic_manager.to_tidy import to_tidy
 import os
 
 load_dotenv()
