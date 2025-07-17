@@ -16,6 +16,11 @@ dependencies = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+
+[project.scripts]
+anomatic = "anomatic_manager.cli:main"
+
+
 [tool.hatch.build.targets.wheel]
 packages = ["anomatic_manager"]
 
