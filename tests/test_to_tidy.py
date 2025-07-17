@@ -2,7 +2,7 @@
 
 import numpy as np
 
-from anarchomatic_manager import to_tidy
+from anomatic import to_tidy
 
 def test_to_tidy_basic_conversion():
     data = {"x": np.array([1, 2]), "y": np.array([3.0, 4.0])}

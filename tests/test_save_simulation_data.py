@@ -7,7 +7,7 @@ import tempfile
 import numpy as np
 import pytest
 
-from anarchomatic_manager import save_simulation_data
+from anomatic import save_simulation_data
 
 @pytest.fixture
 def temp_output_dir():
